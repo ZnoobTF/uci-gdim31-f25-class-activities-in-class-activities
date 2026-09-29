@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+We see from where the camera is, and it does not move with the cat. This is due to the fact that it is no longer a child of the cat, so it will not actively move with it.
+[Itch Link](https://thomasf2.itch.io/cat)
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
