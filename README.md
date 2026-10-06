@@ -5,7 +5,10 @@ We see from where the camera is, and it does not move with the cat. This is due 
 [Itch Link](https://thomasf2.itch.io/cat)
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. The r, g, and b variables are floats due to the fact that RGB data is stored in decimals, and in our case it is stored in the RGB 0-1.0
+2. The _bounce variable is an int because we want to store the amount of bounces that the ball has as a whole number. Also, you can't have a decimal amount of bounces.
+3. The error said that there was a missing semi-colon/;, which is useful as it tells us that we need a semicolon to end a line of code in C#. From experience in Java, I believe that this is because C#, like Java, is a language that ignores whitespace.
+
 
 ## Open-Source Assets
 ### W1
