@@ -10,9 +10,10 @@ We see from where the camera is, and it does not move with the cat. This is due 
 3. The error said that there was a missing semi-colon/;, which is useful as it tells us that we need a semicolon to end a line of code in C#. From experience in Java, I believe that this is because C#, like Java, is a language that ignores whitespace.
 
 ### W3
-Table 12
 
 #### Activity 1
+Table 12
+
 1.Parameters:int or float and boolean  Return Type:string
 
 int and float both work for a friendship level as it is numbers, and string is for text 
