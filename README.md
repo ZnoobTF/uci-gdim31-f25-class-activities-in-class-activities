@@ -38,9 +38,11 @@ ball's color by that multiplier, which increases the brightness as that is one o
 
 #### Discussion Activity
 Table 17
-1.We added RigidBodies to the Cat and Soccerball gameobjects, since they will be moving and be interacting with physics. We put the Is Trigger on the Goal gameobject's Box Collider, since that is what should be detecting collision.
+
+
+1. We added RigidBodies to the Cat and Soccerball gameobjects, since they will be moving and be interacting with physics. We put the Is Trigger on the Goal gameobject's Box Collider, since that is what should be detecting collision.
 Then, our code in the SoccerBall script detects when the SoccerBall gameobject hits that trigger (which is the Goal gameobject's Box Collider). 
-2.Intially, I put the Is Trigger on the Soccerball gameobject, which just made it fall through the floor when the game ran. I then put it on the Goal gameobject instead.
+2. Intially, I put the Is Trigger on the Soccerball gameobject, which just made it fall through the floor when the game ran. I then put it on the Goal gameobject instead.
 
 ## Open-Source Assets
 ### W1
