@@ -44,6 +44,11 @@ Table 17
 Then, our code in the SoccerBall script detects when the SoccerBall gameobject hits that trigger (which is the Goal gameobject's Box Collider). 
 2. Intially, I put the Is Trigger on the Soccerball gameobject, which just made it fall through the floor when the game ran. I then put it on the Goal gameobject instead.
 
+
+### W6
+#### DeerW5 Plan
+needs an Update() for movement and Start() for getting the component, serialized transform variable to set the target, NavMeshAgent variable for getcomponent 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
