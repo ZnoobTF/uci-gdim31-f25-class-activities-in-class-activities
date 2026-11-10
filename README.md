@@ -49,6 +49,16 @@ Then, our code in the SoccerBall script detects when the SoccerBall gameobject h
 #### DeerW5 Plan
 needs an Update() for movement and Start() for getting the component, serialized transform variable to set the target, NavMeshAgent variable for getcomponent 
 
+### W7
+#### Activity 1
+https://docs.google.com/document/d/1XDWYyMudvxGwSmHYFAoLHSPJA9q0LByFpcUUr684WHo/edit?tab=t.0
+
+We did not really assign each other a category assignment, as we all worked on it together. I added some concepts and listed the pre-learning slide for relevant details. 
+
+#### Activity 2
+Notes: serialized field float variable for speed, Update() for making the bat chase the player, and 2 methods for start and stop the bat from chasing, so in turn, a boolean for an if statement in update that starts/stops bat chasing
+ Then maybe Vector3.MoveTowards for movement of the bats toward the player, so then we need the transform of the cat
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
