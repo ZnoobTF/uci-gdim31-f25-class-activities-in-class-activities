@@ -59,6 +59,10 @@ We did not really assign each other a category assignment, as we all worked on i
 Notes: serialized field float variable for speed, Update() for making the bat chase the player, and 2 methods for start and stop the bat from chasing, so in turn, a boolean for an if statement in update that starts/stops bat chasing
  Then maybe Vector3.MoveTowards for movement of the bats toward the player, so then we need the transform of the cat
 
+
+### W8
+The code in Step 2 was using a Vector3.forward value, which is in the world space. Instead, I used transform.foward, which does essentially the same thing, but it is in the local space. This way, the forward and backward movement of my muskrat matches with my rotation.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
